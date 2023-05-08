@@ -11,10 +11,6 @@
 
 
         <body>
-        <?php  
-            require('./global/header.php');
-
-        ?>
 
 
 
