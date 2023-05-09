@@ -24,6 +24,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
                     $_SESSION['username'] = $row['username'];
                     $_SESSION['id'] = $row['id'];
+                    $_SESSION['fullname'] = $row['fname'] . ' ' . $row['lname'];
     
                     
                     $query = http_build_query(['succes' => 'loginsucces']);

@@ -1,5 +1,5 @@
 <?php 
-session_start();
+
 //header connetion and sidebar
     include('./global/header.php');
     include('./global/sitebar.php');
